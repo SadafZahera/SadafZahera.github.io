@@ -1,8 +1,8 @@
 const API_BASE_URL = "https://script.google.com/macros/s/AKfycbySCnqvTmSF5hsaKOcl3lYfi8vZaofsRITebd9P6MuWC8u8vpLzJbggE_zFOXIp8saM/exec";
 const API_TOKEN = "ILoveS7f8a";
 
-const LOCAL_KEY_DATA = "sadaf_portfolio_data_v6";
-const LOCAL_KEY_THEME = "sadaf_portfolio_theme_v6";
+const LOCAL_KEY_DATA = "ahmad_portfolio_data_v6";
+const LOCAL_KEY_THEME = "ahmad_portfolio_theme_v6";
 
 // Default Theme Structure (Dual Mode)
 const DEFAULT_THEME_CONFIG = {
@@ -399,8 +399,7 @@ const adminPanel = document.getElementById('admin-dashboard');
 
 function setupEventListeners() {
     document.querySelector('.hamburger').addEventListener('click', () => {
-        document.querySelector('.nav-links').style.display =
-            document.querySelector('.nav-links').style.display === 'flex' ? 'none' : 'flex';
+        document.querySelector('.nav-links').classList.toggle('active');
     });
 
     document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
