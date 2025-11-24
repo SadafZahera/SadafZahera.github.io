@@ -1,0 +1,227 @@
+{
+  "sectionConfig": {
+    "about": {
+      "title": "About Me",
+      "icon": "fa-regular fa-user"
+    },
+    "skills": {
+      "title": "Skills & Tools",
+      "icon": "fa-solid fa-code"
+    },
+    "experience": {
+      "title": "Experience",
+      "icon": "fa-solid fa-briefcase"
+    },
+    "education": {
+      "title": "Education",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    "research": {
+      "title": "Research",
+      "icon": "fa-solid fa-book-open"
+    },
+    "documents": {
+      "title": "Downloads",
+      "icon": "fa-solid fa-file-arrow-down"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "icon": "fa-solid fa-envelope"
+    }
+  },
+  "profile": {
+    "name": "Ahmad Bilal Zaidi",
+    "role": "Computer Engineering Graduate / Android Developer",
+    "bio": "Passionate Android developer and computer engineering graduate with experience in Android development, backend, and databases.",
+    "aboutDesc": "Hey there! I'm a dedicated Android developer, armed with a Bachelor's degree in Computer Engineering. My journey spans across Android development, machine learning, and backend wizardry, complemented by a firm grip on SQL and MongoDB. I'm all about crafting ingenious solutions that push boundaries. Eager to delve deeper into the ever-evolving world of technology, I'm on a quest for innovation and growth. Let's create something extraordinary together!",
+    "location": "Prayagraj, India",
+    "email": "ahmadbilal.199822@gmail.com",
+    "github": "https://github.com/AngryFalcon89",
+    "linkedin": "https://www.linkedin.com/in/ahmad-bilal-zaidi/",
+    "photoUrl": "https://lh3.googleusercontent.com/d/1PoYnwJoI_Eo0fVA0qRYqOPFvROejV1qo"
+  },
+  "skills": {
+    "languages": [
+      {
+        "name": "C",
+        "iconUrl": ""
+      },
+      {
+        "name": "C++",
+        "iconUrl": ""
+      },
+      {
+        "name": "Kotlin",
+        "iconUrl": ""
+      },
+      {
+        "name": "Java",
+        "iconUrl": ""
+      },
+      {
+        "name": "JavaScript",
+        "iconUrl": ""
+      },
+      {
+        "name": "SQL",
+        "iconUrl": ""
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Android (XML / Jetpack Compose)",
+        "iconUrl": ""
+      },
+      {
+        "name": "Node.js",
+        "iconUrl": ""
+      }
+    ],
+    "tools": [
+      {
+        "name": "Android Studio",
+        "iconUrl": ""
+      },
+      {
+        "name": "MongoDB",
+        "iconUrl": ""
+      },
+      {
+        "name": "AWS",
+        "iconUrl": ""
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "role": "Application Development Intern",
+      "company": "Stick",
+      "location": "Remote / India",
+      "date": "Jan 2023 - Apr 2023",
+      "desc": "Assisted with the end-to-end application development process for Stick, an online engagement platform for youth. Worked on database design, backend development, and Android UI, collaborating closely with developers and designers.",
+      "docUrl": ""
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Technology (B.Tech) in Computer Engineering",
+      "institution": "Your University Name",
+      "location": "India",
+      "startYear": "2019",
+      "endYear": "2023",
+      "grade": "",
+      "details": "Specialized in Application Development and Machine Learning.",
+      "docUrl": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Globe Today 2.0",
+      "desc": "A news application that keeps users up to date with the latest global events. Features smooth navigation, search, bookmarks and a user-friendly interface.",
+      "techStack": [
+        "Kotlin",
+        "Android",
+        "Jetpack Compose"
+      ],
+      "githubUrl": "https://github.com/AngryFalcon89/GlobeToday_2.0",
+      "liveUrl": "",
+      "docUrl": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 2,
+      "title": "Seminar Management System",
+      "desc": "An Android Jetpack Compose project to streamline seminar book management. Supports fetching, issuing, updating, deleting, and returning books.",
+      "techStack": [
+        "Kotlin",
+        "Android",
+        "Jetpack Compose"
+      ],
+      "githubUrl": "https://github.com/AngryFalcon89/Seminar_Management_System",
+      "liveUrl": "",
+      "docUrl": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 3,
+      "title": "Image Steganography",
+      "desc": "An Android-based tool to securely encode secret messages inside images, allowing users to share covert information while keeping communication confidential.",
+      "techStack": [
+        "Kotlin",
+        "Android"
+      ],
+      "githubUrl": "https://github.com/AngryFalcon89/Image-Steganography",
+      "liveUrl": "",
+      "docUrl": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 4,
+      "title": "Image Encrypt/Decrypt CLI",
+      "desc": "A simple command-line tool to encrypt and decrypt images, helping users protect sensitive image data through an easy-to-use interface.",
+      "techStack": [
+        "JavaScript",
+        "Node.js"
+      ],
+      "githubUrl": "https://github.com/AngryFalcon89/Image-Encryption-and-Decryption-CLI-Tool",
+      "liveUrl": "",
+      "docUrl": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 5,
+      "title": "Dictionary",
+      "desc": "An end-to-end dictionary project covering both frontend and backend components, allowing users to explore words and their meanings conveniently.",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "githubUrl": "https://github.com/AngryFalcon89/Dictionary",
+      "liveUrl": "",
+      "docUrl": "",
+      "imageUrl": ""
+    }
+  ],
+  "research": [
+    {
+      "title": "Transformer-Based Topic Modeling for Research Literature",
+      "venue": "MAT Journals",
+      "authors": "Ahmad Bilal Zaidi",
+      "year": "2025",
+      "status": "Published",
+      "paperUrl": "https://lh3.googleusercontent.com/d/1rT11ysDr_zISKqABpDYGLJbYApVODd2u",
+      "certUrl": "https://lh3.googleusercontent.com/d/1Hho8AR1F57DB6CBgTqjChh_q2GsKPktn"
+    }
+  ],
+  "userSections": [
+    {
+      "title": "Certifications",
+      "icon": "",
+      "items": [
+        {
+          "title": "AWS Solutions Architect – Associate",
+          "subtitle": "Amazon Web Services (AWS)",
+          "description": "Gained expertise in designing scalable, cost-optimized, fault-tolerant AWS cloud architectures, including VPC, EC2, EBS, RDS, IAM configuration, Auto-Scaling, and high-availability deployment strategies.",
+          "date": "January 2025"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "title": "Resume / CV",
+      "desc": "B.Tech in Computer Engineering – latest resume.",
+      "category": "Resume",
+      "url": "https://drive.google.com/file/d/1sOZCpf27ZhMt87OHdaoXsA35odLEx_9k/view?usp=sharing"
+    }
+  ]
+}

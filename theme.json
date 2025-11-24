@@ -1,0 +1,31 @@
+{
+  "activeMode": "dark",
+  "dark": {
+    "primaryColor": "#64ffda",
+    "secondaryColor": "#10b981",
+    "backgroundColor": "#0a192f",
+    "surfaceColor": "#112240",
+    "surfaceLightColor": "#233554",
+    "accentColor": "#f97316",
+    "textColor": "#e6f1ff",
+    "textMutedColor": "#8892b0",
+    "borderRadius": "4px",
+    "cardRadius": "12px",
+    "buttonRadius": "999px",
+    "fontFamily": "'Poppins', system-ui, sans-serif"
+  },
+  "light": {
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#16a34a",
+    "backgroundColor": "#f8fafc",
+    "surfaceColor": "#ffffff",
+    "surfaceLightColor": "#e2e8f0",
+    "accentColor": "#ea580c",
+    "textColor": "#0f172a",
+    "textMutedColor": "#64748b",
+    "borderRadius": "4px",
+    "cardRadius": "12px",
+    "buttonRadius": "999px",
+    "fontFamily": "'Poppins', system-ui, sans-serif"
+  }
+}

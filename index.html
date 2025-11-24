@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadaf Zahera | Portfolio</title>
+
+    <!-- Google Fonts: Inter for UI, Roboto Mono for code/dates -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <span class="loader"></span>
+        <p class="loading-text">INITIALIZING SYSTEM...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container container">
+            <a href="#" class="logo" id="nav-logo">Sadaf</a>
+            <div class="nav-menu">
+                <!-- Added 'active' logic requires JS, assuming script.js handles the click on hamburger -->
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#documents">Docs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" title="Switch Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#" id="admin-trigger" class="admin-lock"><i class="fa-solid fa-lock"></i></a>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content hidden-section">
+            <div class="hero-text">
+                <p class="accent-text">Hello, my name is</p>
+                <h1 id="hero-name">Loading...</h1>
+                <h2 id="hero-role">Loading...</h2>
+                <p id="hero-bio" class="hero-bio">Loading...</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div id="hero-socials" class="hero-socials"></div>
+            </div>
+            <div class="hero-image-container">
+                <div id="hero-photo-wrapper" class="photo-wrapper">
+                    <!-- Image injected by JS -->
+                    <div class="avatar-placeholder">?</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text-content">
+                    <p id="about-desc">Loading...</p>
+                    <div id="about-info-grid" class="info-grid"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>02.</span> Skills & Tools</h2>
+            <div id="skills-container" class="skills-wrapper"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>03.</span> Experience</h2>
+            <div id="experience-timeline" class="timeline"></div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>04.</span> Education</h2>
+            <div id="education-timeline" class="timeline"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>05.</span> Featured Projects</h2>
+            <div id="projects-grid" class="projects-grid"></div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>06.</span> Research</h2>
+            <div id="research-grid" class="research-list"></div>
+        </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section id="documents" class="section">
+        <div class="container hidden-section">
+            <h2 class="section-title"><span>07.</span> Downloads</h2>
+            <div id="documents-grid" class="docs-grid"></div>
+        </div>
+    </section>
+
+    <!-- Custom Sections -->
+    <div id="custom-sections-wrapper"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section text-center">
+        <div class="container hidden-section">
+            <p class="accent-text">What's Next?</p>
+            <h2 class="big-heading">Get In Touch</h2>
+            <p class="contact-text">
+                My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get
+                back to you!
+            </p>
+            <a href="" id="contact-email-btn" class="btn btn-primary big-btn">Say Hello</a>
+            <div id="contact-socials" class="social-links-large"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p id="footer-copy">&copy; 2025 Sadaf Zahera.</p>
+        <a href="#" id="footer-admin-link" class="tiny-link">Admin System</a>
+    </footer>
+
+    <!-- ADMIN MODAL (Login) -->
+    <div id="login-modal" class="modal">
+        <div class="login-box">
+            <span class="close-modal">&times;</span>
+            <h3>Admin Access</h3>
+            <p style="color:var(--color-text-muted); font-size:0.9rem; margin-bottom:1rem;">Authorized personnel only
+            </p>
+            <input type="text" id="admin-user" placeholder="Username">
+            <input type="password" id="admin-pass" placeholder="Password">
+            <button id="do-login-btn" class="btn btn-primary" style="width:100%">Login</button>
+            <p id="login-error" class="error-msg"></p>
+        </div>
+    </div>
+
+    <!-- ADMIN PANEL -->
+    <div id="admin-dashboard" class="admin-panel">
+        <div class="admin-header">
+            <h2>Dashboard</h2>
+            <div class="admin-actions">
+                <button id="save-data-btn" class="btn btn-sm btn-success"><i class="fa-solid fa-cloud"></i>
+                    Save</button>
+                <button id="save-theme-btn" class="btn btn-sm btn-outline"><i class="fa-solid fa-palette"></i>
+                    Theme</button>
+                <button id="logout-btn" class="btn btn-sm btn-danger">Exit</button>
+            </div>
+        </div>
+
+        <div class="admin-content">
+            <div id="admin-status" class="admin-note" style="display:none;"></div>
+
+            <div class="admin-tabs">
+                <button class="tab-btn active" data-target="edit-profile">Profile</button>
+                <button class="tab-btn" data-target="edit-skills">Skills</button>
+                <button class="tab-btn" data-target="edit-exp">Exp</button>
+                <button class="tab-btn" data-target="edit-edu">Edu</button>
+                <button class="tab-btn" data-target="edit-projects">Projects</button>
+                <button class="tab-btn" data-target="edit-research">Research</button>
+                <button class="tab-btn" data-target="edit-custom">Custom</button>
+                <button class="tab-btn" data-target="edit-docs">Docs</button>
+                <button class="tab-btn" data-target="edit-theme">Theme</button>
+            </div>
+
+            <!-- Content injected by script.js -->
+            <div id="edit-profile" class="tab-pane active"></div>
+            <div id="edit-skills" class="tab-pane"></div>
+            <div id="edit-exp" class="tab-pane"></div>
+            <div id="edit-edu" class="tab-pane"></div>
+            <div id="edit-projects" class="tab-pane"></div>
+            <div id="edit-research" class="tab-pane"></div>
+            <div id="edit-custom" class="tab-pane"></div>
+            <div id="edit-docs" class="tab-pane"></div>
+            <div id="edit-theme" class="tab-pane"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Minimal JS for Hamburger Menu (if not already in script.js)
+        // Since I cannot see script.js, I add this safety logic here.
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            if (hamburger) {
+                hamburger.addEventListener('click', () => {
+                    if (navLinks.style.display === 'flex') {
+                        navLinks.style.display = 'none';
+                    } else {
+                        navLinks.style.display = 'flex';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
